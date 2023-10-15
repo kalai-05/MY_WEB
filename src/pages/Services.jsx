@@ -15,14 +15,6 @@ function Services() {
               <p class="text-yellow-200 text-2xl md:text-3xl lg:text-5xl xl:text-7xl mb-4 font-semibold">
                 Our Services
               </p>
-              <p>
-                <a
-                  class="font-bold bg-yellow-500 py-2 px-6 text-2xl rounded"
-                  href="#"
-                >
-                  More
-                </a>
-              </p>
             </div>
           </div>
         </div>

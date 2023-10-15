@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <section class="bg-black justify-center mb-1">
+      <section class="bg-black justify-center my-0.5">
         <div class="flex flex-wrap py-5">
           <div class="w-full md:w-1/3   md:border-r border-white flex mb-4">
             <svg
@@ -164,7 +164,11 @@ function Footer() {
               Subsrcibe for our latest resources
             </h2>
             <form action="#">
-              <input class="w-full h-12" type="text" />
+              <input
+                class="w-full h-12 text-black"
+                type="text"
+                placeholder="Enter the mail"
+              />
               <button
                 type="submit"
                 class="  w-full mt-3 text-3xl  text-yellow-500"
